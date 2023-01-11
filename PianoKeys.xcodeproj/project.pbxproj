@@ -90,8 +90,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF8E75572954A1E500A132B3 /* Build configuration list for PBXNativeTarget "PianoKeys" */;
 			buildPhases = (
-				BF8E75602954F24100A132B3 /* ShellScript */,
 				F410F650FADAAEA61EC0863F /* [CP] Check Pods Manifest.lock */,
+				BF8E75602954F24100A132B3 /* ShellScript */,
 				BF8E755C2954ADF800A132B3 /* ShellScript */,
 				BF8E753F2954A1E300A132B3 /* Sources */,
 				BF8E75402954A1E300A132B3 /* Frameworks */,
