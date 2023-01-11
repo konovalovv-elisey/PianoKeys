@@ -13,7 +13,7 @@ protocol ViewControllerDelegate: AnyObject {
 }
 
 class LoggingViewControllerDelegate: ViewControllerDelegate {
-    
+
     func didButtonReleased(vc: MainViewController, buttonName: String) {
         print("Button released: " + "\(buttonName)")
     }

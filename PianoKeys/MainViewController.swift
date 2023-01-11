@@ -11,7 +11,6 @@ import UIKit
 class MainViewController: UIViewController {
     
     var delegate: ViewControllerDelegate?
-    
     private let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
         scrollView.showsVerticalScrollIndicator = false
@@ -157,76 +156,76 @@ class MainViewController: UIViewController {
         scrollView.enableZoom()
     }
     
-    @objc func pushDoButton() {
+    @objc private func pushDoButton() {
         delegate?.didButtonPresed(vc: self, buttonName: "Do")
     }
-    @objc func releasedDoButton() {
+    @objc private func releasedDoButton() {
         delegate?.didButtonReleased(vc: self, buttonName: "Do")
     }
-    @objc func pushReButton() {
+    @objc private func pushReButton() {
         delegate?.didButtonPresed(vc: self, buttonName: "Re")
     }
-    @objc func releasedReButton() {
+    @objc private func releasedReButton() {
         delegate?.didButtonReleased(vc: self, buttonName: "Re")
     }
-    @objc func pushMiButton() {
+    @objc private func pushMiButton() {
         delegate?.didButtonPresed(vc: self, buttonName: "Mi")
     }
-    @objc func releasedMiButton() {
+    @objc private func releasedMiButton() {
         delegate?.didButtonReleased(vc: self, buttonName: "Mi")
     }
-    @objc func pushFaButton() {
+    @objc private func pushFaButton() {
         delegate?.didButtonPresed(vc: self, buttonName: "Fa")
     }
-    @objc func releasedFaButton() {
+    @objc private func releasedFaButton() {
         delegate?.didButtonReleased(vc: self, buttonName: "Fa")
     }
-    @objc func pushSolButton() {
+    @objc private func pushSolButton() {
         delegate?.didButtonPresed(vc: self, buttonName: "Sol")
     }
-    @objc func releasedSolButton() {
+    @objc private func releasedSolButton() {
         delegate?.didButtonReleased(vc: self, buttonName: "Sol")
     }
-    @objc func pushLyaButton() {
+    @objc private func pushLyaButton() {
         delegate?.didButtonPresed(vc: self, buttonName: "Lya")
     }
-    @objc func releasedLyaButton() {
+    @objc private func releasedLyaButton() {
         delegate?.didButtonReleased(vc: self, buttonName: "Lya")
     }
-    @objc func pushSiButton() {
+    @objc private func pushSiButton() {
         delegate?.didButtonPresed(vc: self, buttonName: "Si")
     }
-    @objc func releasedSiButton() {
+    @objc private func releasedSiButton() {
         delegate?.didButtonReleased(vc: self, buttonName: "Si")
     }
-    @objc func pushDoDiesButton() {
+    @objc private func pushDoDiesButton() {
         delegate?.didButtonPresed(vc: self, buttonName: "Do dies")
     }
-    @objc func releasedDoDiesButton() {
+    @objc private func releasedDoDiesButton() {
         delegate?.didButtonReleased(vc: self, buttonName: "Do dies")
     }
-    @objc func pushReDiesButton() {
+    @objc private func pushReDiesButton() {
         delegate?.didButtonPresed(vc: self, buttonName: "Re dies")
     }
-    @objc func releasedReDiesButton() {
+    @objc private func releasedReDiesButton() {
         delegate?.didButtonReleased(vc: self, buttonName: "Re dies")
     }
-    @objc func pushFaDiesButton() {
+    @objc private func pushFaDiesButton() {
         delegate?.didButtonPresed(vc: self, buttonName: "Fa dies")
     }
-    @objc func releasedFaDiesButton() {
+    @objc private func releasedFaDiesButton() {
         delegate?.didButtonReleased(vc: self, buttonName: "Fa dies")
     }
-    @objc func pushSolDiesButton() {
+    @objc private func pushSolDiesButton() {
         delegate?.didButtonPresed(vc: self, buttonName: "Sol dies")
     }
-    @objc func releasedSolDiesButton() {
+    @objc private func releasedSolDiesButton() {
         delegate?.didButtonReleased(vc: self, buttonName: "Sol dies")
     }
-    @objc func pushLyaDiesButton() {
+    @objc private func pushLyaDiesButton() {
         delegate?.didButtonPresed(vc: self, buttonName: "Lya dies")
     }
-    @objc func releasedLyaDiesButton() {
+    @objc private func releasedLyaDiesButton() {
         delegate?.didButtonReleased(vc: self, buttonName: "Lya dies")
     }
     
